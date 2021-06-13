@@ -143,7 +143,7 @@ var option = {
       name: "Vue",
       max: 100
     }, {
-      name: "React",
+      name: "自学能力",
       max: 100
     }, {
       name: "项目开发",
@@ -158,14 +158,14 @@ var option = {
     type: "radar",
     // areaStyle: {normal: {}},
     data: [{
-      value: [100, 70, 90, 80, 85, 70],
+      value: [90, 70, 80, 80, 75, 80],
       name: "能力雷达"
     }]
   }]
 }; // 使用刚指定的配置项和数据显示图表。
 
 myChart.setOption(option);
-},{}],"../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"C:/Users/SK/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -193,7 +193,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56015" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57866" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -369,5 +369,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","main.js"], null)
+},{}]},{},["C:/Users/SK/AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js","main.js"], null)
 //# sourceMappingURL=/main.1f19ae8e.js.map
